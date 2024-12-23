@@ -1,0 +1,79 @@
+body{
+    overflow: hidden;
+    background-color: rgb(58, 58, 58);
+}
+h3{
+    color: orange;
+    margin: 0px;
+    align-self: flex-start;
+}
+p{
+    display: flex;
+    gap: 5px;
+    margin: 10px 0px;
+}
+.buttons{
+    display: block;
+    width: 45px;
+    height: 55px;
+    padding: 1px 6px;
+    text-align: center;
+    align-content: center;
+    font-size: large;
+    border: solid;
+    border-color: #00000044;
+    border-width: 0px 2px 3px 2px;
+    border-radius: 20%;
+    background-color: rgb(83, 83, 83);
+}
+.buttons:hover{
+    border: solid;
+    border-color: #00000044;
+    border-width: 3px 2px 0px 2px;
+    cursor: pointer;
+}
+a::selection{
+    background-color: transparent;
+}
+#main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+}
+.js-calc-field {
+    width: 270px;
+    height: 18px;
+    margin-top: 20px;
+    padding: 20px 10px;
+    direction: rtl;
+    border: 3px #ffffff54 solid;
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+#calculator{
+    font-family: math;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 10px 10px;
+    border: 3px solid rgb(122, 122, 122);
+    border-radius: 10px;
+    background-color: rgb(37, 37, 37);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.operators{
+    background-color: orange;
+}
+.danger{
+    background-color: red;
+}
+#result{
+    background-color: green;
+}

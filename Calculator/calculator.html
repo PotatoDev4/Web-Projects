@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calcstyles.css">
+</head>
+<body>
+    <div id="main">
+        <div id="calculator">
+            <h3>Simple Calculator</h3>
+            <output type="number" class="js-calc-field"></output>
+    
+            <p>
+                <a class="buttons" onclick="calculation(1);">
+                    1
+                </a>
+        
+                <a class="buttons" onclick="calculation(2);">
+                    2
+                </a>
+        
+                <a class="buttons" onclick="calculation(3);">
+                    3
+                </a>
+        
+                <a id="plus" value="+" class="operators buttons" onclick="calculation('+');">
+                    +
+                </a>
+            </p>
+        
+            <p>
+                <a class="buttons" onclick="calculation(4);">
+                    4
+                </a>
+        
+                <a class="buttons" onclick="calculation(5);">
+                    5
+                </a>
+        
+                <a class="buttons" onclick="calculation(6);">
+                    6
+                </a>
+        
+                <a id="minus" value="-" class="operators buttons" onclick="calculation('-');">
+                    -
+                </a>
+            </p>
+        
+            <p>
+                <a class="buttons" onclick="calculation(7);">
+                    7
+                </a>
+        
+                <a class="buttons" onclick="calculation(8);">
+                    8
+                </a>
+        
+                <a class="buttons" onclick="calculation(9);">
+                    9
+                </a>
+        
+                <a id="multiply" value="*" class="operators buttons" onclick="calculation('*');">
+                    *
+                </a>
+            </p>
+        
+            <p>
+                <a class="buttons" id="dot" value="." onclick="calculation('.');">
+                    .
+                </a>
+        
+                <a class="buttons" onclick="calculation(0);">
+                    0
+                </a>
+        
+                <a id="result" class="buttons" onclick="result();">
+                    =
+                </a>
+        
+                <a id="divide" value="/" class="operators buttons" onclick="calculation('/');">
+                    /
+                </a>
+            </p>
+        
+            <p>
+                <a class="danger buttons" onclick="reset();">
+                    Clear
+                </a>
+    
+                <a class="danger buttons" onclick="del();">
+                    Del
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
