@@ -1,0 +1,30 @@
+.add-todo-button, .delete-todo {
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.add-todo-button {
+    background-color: green;
+}
+
+.delete-todo {
+    background-color: red;
+    margin-bottom: 5px;
+}
+
+.todo-input {
+    font-size: 15px;
+    padding: 6px;
+}
+
+.todo-input-row, .todo-list {
+    font-family: Arial;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    align-items: stretch;
+}
